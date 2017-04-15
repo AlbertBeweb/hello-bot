@@ -3,12 +3,11 @@ const fs = require('fs')
 
 const Discord = require('discord.js')
 const bot = new Discord.Client()
-const EMMO = '262698796616646657'
 
 let rules = fs.readFileSync('./rules.md', 'utf8')
 
 bot.on('message', ({ author, guild, content }) => {
-  if (guild || author.id !== EMMO) return
+  if (guild || author.id !== bot.adminId) return
   fs.writeFile('./rules.md', rules = content, err => author.send(err
     ? `Erreur en changeant les regles: \`${err.message}\``
     : `regles mises a jour !`))
