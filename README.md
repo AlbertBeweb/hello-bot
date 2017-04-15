@@ -26,7 +26,7 @@ Built with [nodejs](https://nodejs.org/en/) and the [discordjs](https://discord.
     // config.json
     { "botToken": "my.bot.token", "adminId": "245646465465" }
     ```
-    (where `my.bot.token` is replaced by your bot token, and `adminId` is your personnal discord id).
+    (where `my.bot.token` is replaced by your bot token, and `245646465465` is your personnal discord id).
 
 :warning: _your bot token is private, don't share it_
 
