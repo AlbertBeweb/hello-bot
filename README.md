@@ -1,6 +1,6 @@
 # hello-bot
 simple bot that says hello and MP rules.
-Built with `nodejs` and the `discordjs` library.
+Built with [nodejs](https://nodejs.org/en/) and the [discordjs](https://discord.js.org/#/) library.
 
 ### Setup
  - You need `git` and `nodejs` on your system
