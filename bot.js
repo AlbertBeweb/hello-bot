@@ -7,7 +7,7 @@ const bot = new Discord.Client()
 let rules = fs.readFileSync('./rules.md', 'utf8')
 
 bot.on('message', ({ author, guild, content }) => {
-  if (guild || author.id !== bot.adminId) return
+  if (guild || author.id !== config.adminId) return
   fs.writeFile('./rules.md', rules = content, err => author.send(err
     ? `Erreur en changeant les regles: \`${err.message}\``
     : `regles mises a jour !`))
