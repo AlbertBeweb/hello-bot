@@ -3,30 +3,32 @@ simple bot that says hello and MP rules.
 Built with `nodejs` and the `discordjs` library.
 
 ### Setup
-You need `git` and `nodejs` on your system, and you need to create a `user bot`
+ - You need `git` and `nodejs` on your system
+ - create a `user bot`
+    It will have a `bot ID` and a `bot token`.
 
-It will have a `bot ID` and a `bot token`.
+    You can find all that on the discord website :
 
-You can find all that on the discord website :
-
-[https://discordapp.com/developers/applications/me](https://discordapp.com/developers/applications/me)
+    [https://discordapp.com/developers/applications/me](https://discordapp.com/developers/applications/me)
 
 
-Then authorize your bot to your discord with this link :
+ - Then authorize your bot to your discord with this link :
 
-`https://discordapp.com/oauth2/authorize?&client_id=BOT_ID&scope=bot`
+    `https://discordapp.com/oauth2/authorize?&client_id=BOT_ID&scope=bot`
 
-(where `BOT_ID` is replaced by your bot id)
+    (where `BOT_ID` is replaced by your bot id)
 
-you must then create a config file like so :
+ - Find your id by right-clicking yourself and click `copy ID` in the menu
 
-```js
-// config.json
-{ "botToken": "my.bot.token" }
-```
-(where `my.bot.token` is replaced by your bot token, no shit).
+ - You must then create a config file like so :
 
-_your bot token is private, don't share it_
+    ```js
+    // config.json
+    { "botToken": "my.bot.token", "adminId": 245646465465 }
+    ```
+    (where `my.bot.token` is replaced by your bot token, no shit).
+
+:warning: _your bot token is private, don't share it_
 
 
 ### Install
