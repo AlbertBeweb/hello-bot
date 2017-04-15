@@ -20,11 +20,13 @@ Built with [nodejs](https://nodejs.org/en/) and the [discordjs](https://discord.
 
  - Find your id by right-clicking yourself and click `copy ID` in the menu
 
- - You must then create a config file like so :
+ - You must then create a config file named `config.json` like so :
 
     ```js
-    // config.json
-    { "botToken": "my.bot.token", "adminId": "245646465465" }
+    {
+      "botToken": "my.bot.token",
+      "adminId": "245646465465"
+    }
     ```
     (where `my.bot.token` is replaced by your bot token, and `245646465465` is your personnal discord id).
 
