@@ -44,4 +44,4 @@ node bot
 
 
 ### Video explaining the code (in french)
-[![youtube video link](https://img.youtube.com/vi/vpDytuYdK4w/0.jpg)](https://www.youtube.com/watch?v=vpDytuYdK4w)
+[![youtube video link](http://img.youtube.com/vi/vpDytuYdK4w/maxresdefault.jpg)](https://www.youtube.com/watch?v=vpDytuYdK4w)
