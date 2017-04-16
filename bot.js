@@ -14,7 +14,7 @@ bot.on('message', ({ author, guild, content }) => {
 })
 
 bot.on('guildMemberAdd', ({ user, guild }) => {
-  guild.defaultChannel.sendMessage(`:sparkles: Bienvenue sur le discord L'Ordre des Schlags <@${user.id}>! Je t'invite à lire les règles ainsi que le mode d'emploi de Discord dans le chan Infos,  à te présenter dans le salon General et faire connaissance avec tout le monde ! :sparkles:`)
+  guild.defaultChannel.sendMessage(`:dragon: Bienvenue à toi sur le Discord de **L'Ordre des Schlags** <@${user.id}>! Je t'invite à lire les **règles** du serveur ainsi que le **mode d'emploi de Discord** dans le chan #infos, à te présenter dans le salon #general et faire connaissance avec tout le monde ! :dragon:`)
   user.send(rules).catch(console.error)
 })
 
